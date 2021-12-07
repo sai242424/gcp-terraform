@@ -3,7 +3,8 @@ provider "google" {
 }
 
 resource "google_pubsub_topic" "example" {
-  name = "example-topic"
+  name = var.topic
+  project_id ="dataplatformfoundation-01"
 
   labels = {
     foo = "bar"
