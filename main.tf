@@ -3,11 +3,7 @@ provider "google" {
 }
 
 resource "google_pubsub_topic" "example" {
-  name = var.topic
-
-  labels = {
-    foo = "bar"
-  }
+  name = "dataplatformfoundation_test"
 
   message_retention_duration = "86600s"
 }
