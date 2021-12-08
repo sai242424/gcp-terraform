@@ -1,4 +1,5 @@
 provider "google" {
+  project = "dataplatformfoundation-01"
   region = "us-central1"
 }
 
