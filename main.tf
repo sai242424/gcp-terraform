@@ -12,7 +12,7 @@ resource "google_pubsub_topic" "example1" {
 */
 
 resource "google_bigquery_table" "default" {
-  dataset_id = "dataplatformfoundation-01:dataplatformfoundation_streaming"
+  dataset_id = "dataplatformfoundation_streaming"
   table_id   = "dataplatform_usa_names_terraform"
 
   time_partitioning {
