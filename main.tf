@@ -80,12 +80,6 @@ resource "google_bigquery_table" "default" {
     "description": "core_skills"
   },
   {
-    "name": "job_title",
-    "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "job_title"
-  },
-  {
     "name": "digital_products",
     "type": "STRING",
     "mode": "NULLABLE",
