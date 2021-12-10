@@ -28,7 +28,7 @@ resource "google_bigquery_table" "default" {
   {
     "name": "subverticals",
     "type": "STRING",
-    "mode": "NULLABLE",
+    "mode": "REPEATED",
     "description": "subverticals"
   },
   {
@@ -76,13 +76,13 @@ resource "google_bigquery_table" "default" {
   {
     "name": "core_skills",
     "type": "STRING",
-    "mode": "NULLABLE",
+    "mode": "REPEATED",
     "description": "core_skills"
   },
   {
     "name": "digital_products",
     "type": "STRING",
-    "mode": "NULLABLE",
+    "mode": "REPEATED",
     "description": "digital_products"
   },
   {
